@@ -1,8 +1,10 @@
+from datetime import datetime, timezone
 class OrderRepository:
     def __init__(self):
         self.orders = []
 
     def save(self, order):
+        order["updatedAt"] = datetime.now(timezone.utc)
         self.orders.append(order)
         return order
 
