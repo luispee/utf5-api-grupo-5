@@ -1,0 +1,16 @@
+[
+    {
+        "orderId": "6a8b6402-d278-432b-896d-b3c85850c555",
+        "customerName": "Juan P\u00e9rez",
+        "status": "PREPARANDO",
+        "totalAmount": 17.0,
+        "updatedAt": "2026-06-18T20:41:57.261199+00:00"
+    },
+    {
+        "orderId": "c5e38aa5-6885-4e0b-a1a1-94767d742585",
+        "customerName": "Jose P\u00e9rez",
+        "status": "PREPARANDO",
+        "totalAmount": 42.5,
+        "updatedAt": "2026-06-18T20:43:45.217614+00:00"
+    }
+]
