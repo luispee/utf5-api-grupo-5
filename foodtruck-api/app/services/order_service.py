@@ -17,7 +17,7 @@ class OrderService:
                 raise Exception(f"Producto {item.productId} no existe")
 
             if not product["isAvailable"]:
-                raise Exception(f"Producto sin stock")
+                raise Exception("Producto sin stock")
 
             subtotal += product["price"] * item.quantity
 
